@@ -1,0 +1,100 @@
+Reset * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.container {
+    
+    background: url("./img/flow.jpg") no-repeat center center/cover;
+    height: 600px;
+    margin: auto;
+    max-width: 1500px;
+    overflow: auto;
+    padding:5px;
+  }
+ 
+  
+  body{
+    font-family:serif;
+  }
+  
+    .navbar {
+      
+        color:black;
+        overflow: auto;
+      }
+      
+   
+      
+      .navbar h1 {
+        float: left;
+        padding:0px 20px;
+        font-size:35px;
+       
+      }
+      
+      .navbar ul {
+      
+        list-style: none;
+        float: right;
+      }
+      
+      .navbar ul li {
+      
+        /* background: rgb(76, 40, 87); */
+        float: left;
+      }
+      
+      .navbar ul li a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+      }
+    
+.row{
+    display: flex;
+    text-align:left;
+    padding: 100px;
+}
+
+.col{
+    flex-basis: 40%;
+    
+}
+
+
+.card{
+    width:200px;
+    height: 250px;
+    display: inline-block;
+    border-radius:20px;
+    margin: 2px;
+    text-align: center;
+    
+    
+}
+.card1{
+    background: url("./img/pot.jpg") no-repeat center center/cover;
+
+}
+.card2{
+    background: url("./img/flow.jpg") no-repeat center center/cover;
+}
+
+ .card3{
+        background: url("./img/flow.jpg") no-repeat center center/cover;
+    }
+    
+
+.card4{
+            background: url("./img/pot.jpg") no-repeat center center/cover;
+        }
+        
+       
+        
